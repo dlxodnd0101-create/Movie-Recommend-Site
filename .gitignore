@@ -1,0 +1,94 @@
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+.claude/
+**/.claude/
+.agents/
+.codex/
+*.swp
+.DS_Store
+**/.DS_Store
+
+# Local Codex/repository recovery artifacts
+.repo-backups/
+.tools/
+/tools/
+/presentation/
+/outputs/
+/AI/logs/
+*.pub
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Node / frontend builds
+**/node_modules/
+**/dist/
+**/.vite/
+**/test-results/
+**/playwright-report/
+
+# Runtime files
+**/*.log
+**/*.tmp
+**/.runtime/
+Backend/app/uploads/*
+!Backend/app/uploads/images/
+Backend/app/uploads/images/*
+!Backend/app/uploads/images/user_profiles/
+Backend/app/uploads/images/user_profiles/*
+!Backend/app/uploads/images/user_profiles/.gitkeep
+
+# AI models, training outputs, and generated vector data
+AI/gemma4-cineverse/
+AI/checkpoint-*/
+AI/model/
+AI/data/
+!AI/data/
+AI/data/*
+!AI/data/topic_profiles.json
+!AI/data/character_facts_verified_v1.json
+!AI/data/character_relations_verified_v1.json
+AI/output/
+AI/outputs/
+AI/eval/*_202608*.json
+AI/eval/*_202608*.csv
+AI/eval/candidate_package_*.json
+AI/eval/production_canary_*.json
+**/*.gguf
+**/*.safetensors
+**/*.ckpt
+**/*.pt
+**/*.pth
+movies_final.csv
+
+# Local archives and demonstrations
+backups/
+server-archives/
+tmp/
+*.zip
+*.tar.gz
+*.mov
+
+# Local presentation workspace (final delivery documents are kept under docs/)
+Musubi_발표자료/
+
+# Finder alias accidentally copied into the project
+PostgreSQL 17
