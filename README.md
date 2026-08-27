@@ -1,6 +1,6 @@
 # Musubi — AI Movie Recommendation and Character Conversation Platform
 
-[![CI](https://github.com/dnddlek8275/Musubi-Movie-Recommended-Site/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/dnddlek8275/Musubi-Movie-Recommended-Site/actions/workflows/ci.yaml)
+[![CI](https://github.com/dlxodnd0101-create/Movie-Recommend-Site/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/dlxodnd0101-create/Movie-Recommend-Site/actions/workflows/ci.yaml)
 
 Musubi is a web platform for movie discovery, personalized recommendations, reviews and activity tracking, AI-assisted movie recommendations, and conversations with movie characters. This monorepo contains the React and FastAPI applications, GPU-backed RAG/LLM services, and KakaoCloud deployment configuration.
 
@@ -66,6 +66,16 @@ See the [multi-AZ architecture document](Infra/project-docs/current/infra/multi-
 ```
 
 The repository also maintains `.github/` for CI/CD and `.gitignore` rules for sensitive or generated files. Production credentials, API keys, SSH keys, model weights, and data files are not committed.
+
+## Team
+
+| Contributor | Active period | Focus |
+| --- | --- | --- |
+| `ngbaek24` | 2026-06-24 ~ 2026-07-17 | PM / AI |
+| `sora-j` | 2026-06-24 ~ 2026-08-19 | Data / AI / QA |
+| `serim-dev` | 2026-06-24 ~ 2026-08-19 | Frontend / Backend / DB |
+| `dlxodnd0101-create` | 2026-06-24 ~ 2026-08-20 | Full-stack / Infrastructure / Data Management |
+
 
 ## Local Development
 
